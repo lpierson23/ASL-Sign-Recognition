@@ -1,0 +1,16 @@
+For this project, I would like to create a program that recognizes ASL hand symbols and converts the letters found into text.
+
+The databases linked in the assignment provide a good training set for this project, especially this database: https://www.dropbox.com/sh/etvr4ybglp2deq2/AAChVx5bKrsQ-ougGyEsXrs7a?dl=0
+In additon, I have added links to a few other useful datasets to be used for training or testing:
+https://public.roboflow.com/object-detection/american-sign-language-letters/1/download
+https://www.kaggle.com/datasets/danrasband/asl-alphabet-test
+
+For this project, there are quite a few computer-vision topics I must learn about, which I have listed below:
+- detection of human hand
+  - detection should differentiate hand from background
+  - should this detection differentiate between a drawing of the symbol and a real human hand?
+- detection of hand placement in the frame
+  - is the hand fully in frame and visible?
+- determining where the tip of each finger is placed
+  - possibly based on the curves of the finger tips
+- differentiation between similar asl hand symbols
