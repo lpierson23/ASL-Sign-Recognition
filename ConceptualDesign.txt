@@ -9,6 +9,7 @@ For this project, there are quite a few computer-vision topics I must learn abou
 - detection of human hand
   - detection should differentiate hand from background
   - should this detection differentiate between a drawing of the symbol and a real human hand?
+  - detection should be consistent with different lighting conditions
 - detection of hand placement in the frame
   - is the hand fully in frame and visible?
 - determining where the tip of each finger is placed
