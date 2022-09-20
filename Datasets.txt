@@ -1,0 +1,19 @@
+- sources (download link and associated paper(s) offering the dataset(s))
+  1) https://www.dropbox.com/sh/etvr4ybglp2deq2/AAChVx5bKrsQ-ougGyEsXrs7a?dl=0
+  2) https://public.roboflow.com/object-detection/american-sign-language-letters/1/download
+  3) https://www.kaggle.com/datasets/danrasband/asl-alphabet-test
+  
+- differences between the train and validation subsets, which you think are important from your project point of view
+  - the training dataset would have more variety in terms of lighting conditions, resolution, and image backgrounds
+  - I wonder if the training set should also have images of hands that do not create ASL characters
+  - there should be an equal number of each ASL character represented in the training dataset
+
+- number of distinct objects/subjects represented in the data, number of samples per object/subject (if applies)
+  1) 2000 samples for each letter/number of ASL
+  2) 1728 samples total with large variety in subject and orientation
+  3) 30 samples for each letter of ASL
+
+- brief characterization of samples: resolution, sensors used, illumination wavelength, ambient conditions, etc. (whichever applies)
+  Sample 1 contains images of the same hand positioned in very similar ways with the same lighting. Resolution is clear for most of the images.
+  Sample 2 contains a wide variety of images containing different hands, lighting conditions, and resolutions. This dataset has already been divided into training, testing, and validation.
+  Sample 3 contains images of the same hand, but at different distances from the camera, different backgrounds, lighting conditions, and resolutions
