@@ -12,3 +12,4 @@ for each ASL symbol. For example, for the ASL symbol "b", all fingers except for
 Additionally, the thumb will cross into the palm section of the hand. 
 
 3) A few illustrations demonstrating how your methods processed training data, for instance segmentation results (3 points).
+The results of the feature extraction can be seen in the file titled "CV_Part3_FeatureDetection.ipynb".
