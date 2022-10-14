@@ -1,7 +1,7 @@
 1) Methods already applied for data pre-processing and feature extraction (2 points).
 For feature extraction, I utilized the MediaPipe Hands resource https://google.github.io/mediapipe/solutions/hands. 
 This process takes in an image and classifies the handiness by flipping the image across the y-axis.
-It then converts the image to RGB to further process. The image dimensions are noted to help find finer placement.
+It then converts the image to RGB to further process. The image dimensions are noted to help find finger placement.
 This solution uses mp_hands to detect different points on the hand including the wrist, tips and digits of each finger.
 The details of this process are not given in the code.
 A graph of the found points is then plotted with the coordinates of the point on the original image.
