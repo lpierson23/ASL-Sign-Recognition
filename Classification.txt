@@ -1,0 +1,20 @@
+- A short justification of the choice of classifier (3 points)
+
+For this project, my initial solution was to examine the point mapping of each symbol and manually generate the patern that would result in such a symbol classification. Then, when I predict the symbol of a new image, the classifier would see which collection of conditions the points in the new image matched best. This process i thought would be very similar to Practical 2 where we classified based on shape of the item. However, this "solution" proved to be extremely difficult, tedious, and inaccurate. There are so many different orientations of a hand showing the same symbol. As a result, my classifier was extremely inaccurate (25% accuracy) and wasn't actually learning from the training data. As a result, I decided to create a more sophisticated CNN classifier that could predict the symbol based on previous testing. This model proved to be much more accurate in the long run. With 100 epochs and a batch size of 32, training this model took very little time and produced a fairly high accuracy for the training set. 
+
+- A classification accuracy achieved on the training and testing subsets (2 points)
+
+For the training set, the classification accuracy was 90.909% with 520 out of 572 symbols being recognized correctly. Therefore 9.091% of symbols were incorrectly classified.
+
+Classification accuracy for the testing set however was 68.605% with 354 out of 516 symbols being recognized correctly. Therefore 31.395% of symbols were incorrectly classified.
+
+
+- A short commentary related to the observed accuracy and ideas for improvements (6 points)
+
+From the classification accuracy data, we can see that there is a notable difference in the classification of the training and testing sets. Therefore, there are a few small changes I can make to my classifier before the final testing. 
+
+- randomize the training images more before presenting them to the model; this will allow the classifier to incounter entirely different symbols instead of seeing all of the 'a's and then the 'b's and so on
+
+- increase the number of epochs to lower the learning rate of the model; the number of epochs is currently pretty high, but some experimentation here could be useful
+
+- add another convolutional layer to detect patterns more accurately
