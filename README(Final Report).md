@@ -9,9 +9,13 @@ The classification accuracy for the final testing set was 50% with 13 out of 26 
 - Most of you should see worse results on the test set when compared to the results obtained on train/validation sets. You should not be worried about that, but please provide the reasons why your solution performs worse (with a few illustrations, such as pictures or videos, what went wrong). What improvements would you propose to lower the observed error rates? (3 points)
 
 As predicted, the model had a difficult time classifying symbols in which the hand orientation was atypical. The first image illustrates the accuracy of the model when it is presented with images in generally the same orientation as you would typically see an ASL symbol. The accuracy here is 80% over after being presented 5 images. 
-![](Screenshot (2).png)
+
+
+<img src = "Screenshot (2).png">
 
 This second image illustrates the results of an abnormally oriented symbol. Here the model classifies the symbol as an "M" when it is actually a "T". 
-![](Screenshot (3).png)
+
+
+<img src = "Screenshot (3).png">
 
 To improve this error rate, one could train the model with more atypically oriented hand symbols. However, a further analysis of the Mediapipes Hands library may be necessary to truly improve this model. 
