@@ -1,0 +1,7 @@
+Description of the test database you collected or downloaded: What is the size of the database? What is different when compared to the training and validation subsets? Why you believe these differences are sufficient to test your final programs? (2 points)
+
+
+A classification accuracy achieved on the test set. Use the same metrics as in previous phase. (2 points)
+
+
+Most of you should see worse results on the test set when compared to the results obtained on train/validation sets. You should not be worried about that, but please provide the reasons why your solution performs worse (with a few illustrations, such as pictures or videos, what went wrong). What improvements would you propose to lower the observed error rates? (3 points)
