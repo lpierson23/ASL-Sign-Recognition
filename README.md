@@ -8,3 +8,5 @@ To run code on validation sample:
 
 
 I had some problems adding a copy of the code to the repo. If the file doesn't work, please use this link https://colab.research.google.com/drive/13rJ_OMREkkH8hDy5aMXzhcVaz6_U7KbQ?usp=sharing
+
+My Final Presentation Video was too large to upload, so a link to the file in google can be found titled "CV Final Presentation"
