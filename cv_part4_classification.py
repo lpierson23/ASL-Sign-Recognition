@@ -36,6 +36,9 @@ np.set_printoptions(precision=3, suppress=True)
 #Functions
 
 def getFeatures(file):
+  mp_drawing = mp.solutions.drawing_utils
+  mp_hands = mp.solutions.hands
+  
   with mp_hands.Hands(
     static_image_mode=True,
     max_num_hands=2,
